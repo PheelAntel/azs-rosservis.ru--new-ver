@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: OpenSansRegular, sans-serif;
+  outline: none !important;
+
+}
+:invalid {
+box-shadow: none;
+}
+
+a {
+  color: #f5f5f5;
+}
+html {
+  overflow-x: hidden;
+}
+.col-sm-5, .col-sm-7 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.page {
+
+}
+
+/*Header*/
+.col-sm-12 {
+  padding: 0;
+
+}
+.workTime {
+  min-height: 40px;
+  background-color: #181a1d;
+  text-align: center;
+  font-size: 12px;
+}
+
+.workTime  a {
+  border-bottom: 1px dotted #d6d6d6;
+  padding-bottom: 1px;
+}
+
+.workTime ul {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #d6d6d6;
+  list-style-type: none;
+}
+
+.workTime li{
+  display: inline;
+  margin-right: 12px;
+}
+
+.header {
+  height: 120px;
+  background-color: #2b2e33;
+}
+
+/*Logo*/
+.logoWrapper {
+
+}
+.logo > p {
+  float: left;
+  margin-top: 20px;
+}
+
+.logo  img {
+  width: 80px;
+  height: 80px;
+}
+.logoText  {
+  position: absolute;
+  margin-left: 10px;
+  top: 23px;
+  color: #fff;
+  font-family: logo_font, sans-serif;
+  font-size: 50px;
+  width: 50px;
+}
+
+
+
+/*Main Menu*/
+.mainMenu {
+  font-size: 15px;
+  float: right;
+  margin-top: 48px;
+}
+
+.mainMenu a {
+  margin-right: 30px;
+  padding-bottom: 10px;
+}
+
+
+.mainMenu :hover {
+  border-bottom: 2px solid #1b93d0;
+}
+
+.mainMenu :last-child {
+  margin-right: 0px;
+}
+.mainMenu :first-child {
+  border-bottom: 2px solid #1b93d0;
+}
+
+
+/*mobile menu*/
+#menuShow {
+  text-align: center;
+  color: #1b93d0;
+  font-size: 40px;
+  cursor: pointer;
+}
+#menuShow :hover {
+  color: #1679ac;
+}
+
+#mobileMenu {
+  position: relative;
+  z-index: 1000;
+  text-align: center;
+  height: auto;
+}
+
+#mobileMenu a {
+  display: block;
+  clear: both;
+  padding: 5px 0;
+  color: #333;
+  font-size: 25px;
+  -webkit-transition: background 200ms linear;
+  -moz-transition: background 200ms linear;
+  -o-transition: background 200ms linear;
+  -ms-transition: background 200ms linear;
+  transition: background 200ms linear;
+}
+
+#mobileMenu :last-child {
+
+}
+#mobileMenu  a:hover {
+   background-color: #1b93d0;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+}
+
+
+/*description*/
+.container-fluid-desc {
+  min-height: 750px;
+}
+.descText {
+  height: 750px;
+  margin-right: 30px;
+  color: #fff;
+  font-size: 20px;
+  text-align:justify;
+  text-indent: 20px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.buttonBlock {
+  padding-top: 50%;
+  text-align: center;
+  float: right;
+}
+
+/*button begin*/
+.buttonBlock p {
+  color: #fff;
+  font-size: 28px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 5%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow:    0 8px 0 #274792, 0 15px 20px rgba(0, 0, 0, .35);
+  -moz-box-shadow: 0 8px 0 #274792, 0 15px 20px rgba(0, 0, 0, .35);
+  box-shadow: 0 8px 0 #274792, 0 15px 20px rgba(0, 0, 0, .35);
+  -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+  -moz-transition: -moz-box-shadow .1s ease-in-out;
+  -o-transition: -o-box-shadow .1s ease-in-out;
+  transition: box-shadow .1s ease-in-out;
+  font-size: 20px;
+  color: #fff;
+}
+
+.button span {
+  display: inline-block;
+  padding: 25px 50px 20px 50px;
+  background-color: #305fbd;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(hsla(201, 78%, 48%, .8)), to(hsla(220, 59%, 46%, .2)));
+  background-image: -webkit-linear-gradient(hsla(201, 78%, 48%, .8), hsla(220, 59%, 46%, .2));
+  background-image: -moz-linear-gradient(hsla(201, 78%, 48%, .8), hsla(220, 59%, 46%, .2));
+  background-image: -o-linear-gradient(hsla(201, 78%, 48%, .8), hsla(220, 59%, 46%, .2));
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+  -moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+  box-shadow: inset 0 -1px 1px rgba(255, 255, 255, .15);
+  line-height: 1;
+  text-shadow: 0 -1px 1px rgba(240, 243, 248, .7);
+  -webkit-transition: background-color .2s ease-in-out, -webkit-transform .1s ease-in-out;
+  -moz-transition: background-color .2s ease-in-out, -moz-transform .1s ease-in-out;
+  -o-transition: background-color .2s ease-in-out, -o-transform .1s ease-in-out;
+  transition: background-color .2s ease-in-out, transform .1s ease-in-out;
+}
+
+.button:hover span {
+  background-color: #4171d3;
+  text-shadow: 0 -1px 1px rgba(240, 243, 248, .7); 0 0 5px rgba(255, 255, 255, .8);
+}
+
+.button:active, .button:focus {
+  -webkit-box-shadow:    0 8px 0 #274792, 0 12px 10px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 8px 0 #274792, 0 12px 10px rgba(0, 0, 0, .3);
+  box-shadow:    0 8px 0 #274792, 0 12px 10px rgba(0, 0, 0, .3);
+}
+
+.button:active span {
+  -webkit-transform: translate(0, 4px);
+  -moz-transform: translate(0, 4px);
+  -o-transform: translate(0, 4px);
+  transform: translate(0, 4px);
+}
+/*battonEnd*/
+
+/*grad blocks*/
+.grad {
+  background: linear-gradient(to top, #DBDBDB, #fbfbfb);
+}
+
+.quality  p, .prices p {
+  padding: 0px 20px;
+  margin-bottom: 50px;
+  color: #333;
+  font-size: 20px;
+  text-align: center;
+}
+
+.quality  h1, .prices h1 {
+  margin-top: 0px;
+}
+.icon1, .icon2 {
+  display: flex;
+}
+.icon1 img, .icon2 img{
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  height: 150px;
+  width: 150px;
+
+}
+
+.quality h1, .prices h1 {
+  text-align: center;
+}
+
+/*conatacts*/
+
+.contacts {
+  min-height: 300px;
+  height: auto;
+  text-align: center;
+  color: #ebebeb;
+  display: flex;
+}
+
+.contacts  div {
+  margin: auto;
+}
+
+.contacts i {
+  margin: auto;
+  width: 45px;
+  height: 45px;
+  font-size: 1.9em;
+  border: 2px #ebebeb solid;
+  border-radius: 6px;
+
+}
+.contacts span {
+  display: block;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/*feedback form*/
+.feedBackForm {
+  height: auto;
+
+}
+.flex-outer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction:column;
+}
+
+.flex-outer  li {
+list-style-type: none;
+margin-bottom: 20px;
+}
+
+#fio:focus, #email:focus , #tel:focus, #massage:focus {
+  color: #000000;
+  border: 3px solid #1b93d0;
+}
+
+#fio, #email, #tel {
+  height: 50px;
+  width: 100%;
+  outline: none;
+  border: 2px solid #1b93d0;
+  border-radius: 4px;
+  padding-left: 10px;
+}
+
+#massage {
+  margin-top: 20px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 190px;
+  max-height: 340px;
+
+  outline: none;
+  border: 2px solid #1b93d0;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+#massage-btn {
+  margin-top: 20px;
+  background-color: #1b93d0;
+  color: #fff;
+  float: right;
+  border: 2px solid #1b93d0;
+  border-radius: 4px;
+  padding: 10px 30px;
+  margin-bottom: 50px;
+}
+
+#massage-btn:hover  {
+  background-color: #1679ac;
+  border: 2px solid #1679ac;
+}

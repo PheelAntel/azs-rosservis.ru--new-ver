@@ -1,0 +1,59 @@
+@font-face {
+    -moz-font-family: OpenSansBold;
+    -webkit-font-family: OpenSansBold;
+    -o-font-family: OpenSansBold;
+    font-family: logo_font;
+    src:url(../fonts/OpenSansBold.ttf);
+
+    -moz-font-family: OpenSansBold;
+    -webkit-font-family: OpenSansBold;
+    -o-font-family: OpenSansBold;
+    font-family: OpenSansBold;
+    src: url(../fonts/OpenSansBold.eot);
+
+    -moz-font-family: OpenSansBold;
+    -webkit-font-family: OpenSansBold;
+    -o-font-family: OpenSansBold;
+    font-family: OpenSansBold;
+    src: url(../fonts/OpenSansBold.woff);
+}
+
+@font-face {
+    -moz-font-family: OpenSansRegular;
+    -webkit-font-family: OpenSansRegular;
+    -o-font-family: OpenSansRegular;
+    font-family: OpenSansRegular;
+    src:url(../fonts/OpenSansRegular.ttf);
+
+    -moz-font-family: OpenSansRegular;
+    -webkit-font-family: OpenSansRegular;
+    -o-font-family: OpenSansRegular;
+    font-family: OpenSansRegular;
+    src: url(../fonts/OpenSansRegular.eot);
+
+    -moz-font-family: OpenSansRegular;
+    -webkit-font-family: OpenSansRegular;
+    -o-font-family: OpenSansRegular;
+    font-family: OpenSansRegular;
+    src: url(../fonts/OpenSansRegular.woff);
+}
+
+@font-face {
+    -moz-font-family: logo_font;
+    -webkit-font-family: logo_font;
+    -o-font-family: logo_font;
+	  font-family: logo_font;
+  	src:url(../fonts/logo_font.ttf);
+
+    -moz-font-family: logo_font;
+    -webkit-font-family: logo_font;
+    -o-font-family: logo_font;
+    font-family: logo_font;
+    src: url(../fonts/logo_font.eot);
+
+    -moz-font-family: logo_font;
+    -webkit-font-family: logo_font;
+    -o-font-family: logo_font;
+    font-family: logo_font;
+    src: url(../fonts/logo_font.woff);
+}
