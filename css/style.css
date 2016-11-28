@@ -23,6 +23,26 @@ html {
 .page {
 
 }
+/*to top*/
+#scroller{
+    position: fixed;
+    z-index: 1000;
+    bottom: 25px;
+    right: 25px;
+    background-color: #1b93d0;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: none;
+    border-radius: 3px;
+    opacity: 0.6;
+    text-align: center;
+}
+#scroller i {
+  font-size: 45px;
+  color: #fff;
+
+}
 
 /*Header*/
 .col-sm-12 {
