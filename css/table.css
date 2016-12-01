@@ -1,0 +1,63 @@
+/*===ТАБЛИЦА===*/
+
+.pic_zoom {
+
+}
+
+
+.table-header {
+  height: 198px;
+  width: 100%;
+  padding-top: 80px;
+}
+.table-header h1 {
+  text-align: center;
+  margin: 0;
+  color: #fff;
+}
+
+table {
+  border-collapse: collapse;
+  color: #686461;
+}
+caption {
+  padding: 10px;
+  color: white;
+  background: #272830;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+th {
+    width: 1300px;
+  color: #fff;
+  margin: 0 auto;
+  padding: 10px 0px;
+  text-align: center;
+}
+td {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+tr:nth-child(odd) {
+  background: #4E4F57;
+}
+tr:nth-child(even) {
+  background: #272830;
+}
+
+tbody tr:hover {
+  background-color: #1b93d0;
+
+    -webkit-transition: background 300ms ease-in-out;
+    -moz-transition: background 300ms ease-in-out;
+    -ms-transition: background 300ms ease-in-out;
+    -o-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+
+}
+
+tr th{
+  background-color: #272830;
+}
