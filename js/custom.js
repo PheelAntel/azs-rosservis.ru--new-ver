@@ -1,18 +1,32 @@
 
 // Показ или скрытие меню при нажатии на бар
 $('#menuShow').click (function () {
-  if ($('#mobileMenu').is(':visible'))
+  if ($('#mobileMenu').is(':visible')) {
       $('#mobileMenu').slideUp("fast");
-  else
+      $(".dark").css({visibility: "hidden"});
+    }
+  else {
       $('#mobileMenu').slideDown("fast");
+      $(".dark").css({visibility: "visible"});
+    }
 });
+
+// Скрытие меню при клике на пустую область
+$(document).mouseup(function (e) {
+    var container = $('.container-fluid-mobile');
+    if (container.has(e.target).length === 0){
+        $('#mobileMenu').slideUp("fast");
+        $(".dark").css({visibility: "hidden"});
+    }
+});
+
 
 // Скрытие меню при загрузке страницы
 $(document).ready(function() {
   $('#mobileMenu').hide ();
 });
 
-// Scroller
+// Scroller to top
 $(document).ready(function(){
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {

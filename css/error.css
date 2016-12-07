@@ -1,0 +1,25 @@
+/*error page*/
+* {
+  margin: 0;
+  padding: 0;
+}
+.content {
+  min-height: calc(100vh - 68.5px);
+  background: linear-gradient(to top, #DBDBDB, #fbfbfb);
+}
+
+.error {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.error a {
+  color: #1b93d0;
+}
+
+.error p {
+  margin-top: 30px;
+  font-size: 200px;
+  opacity: 0.3;
+  text-shadow: 6px 5px 3px rgba(150, 150, 150, 1);
+}
